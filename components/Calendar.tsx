@@ -96,7 +96,6 @@ declare global {
   interface Window {
     ENV: {
       NEXT_PUBLIC_GOOGLE_CLIENT_ID: string;
-      NEXT_PUBLIC_GOOGLE_API_KEY: string;
     }
     gapi: {
       auth: {
@@ -142,7 +141,7 @@ declare global {
 
 const config = {
   clientId: process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID || '',
-  apiKey: process.env.NEXT_PUBLIC_GOOGLE_API_KEY || '',
+  apiKey: '',
   scope: "https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/contacts.readonly https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/documents https://www.googleapis.com/auth/drive.file",
   discoveryDocs: [
     "https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest",

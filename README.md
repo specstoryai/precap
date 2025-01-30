@@ -8,10 +8,9 @@ The intent for this app and Cursor responses is stored in: https://share.specsto
 
 - 🔄 **Google Calendar Integration**: Seamlessly connects with your calendar to fetch upcoming meetings and attendees
 - 🔍 **Automated Research**: Uses Exa.ai to gather comprehensive, up-to-date information about meeting participants
-- 🤖 **AI-Powered Summaries**: Leverages GPT-4 to generate concise, professional summaries about each attendee
+- 🤖 **AI-Powered Summaries**: Leverages GPT-4o to generate concise, professional summaries about each attendee
 - 📊 **Rich Attendee Profiles**: Displays enhanced contact information including profile photos, job titles, and company info
 - 📝 **Source Attribution**: All research includes linked citations to original sources
-- 🌓 **Dark Mode Support**: Full dark mode support for comfortable viewing
 - 📄 **Google Docs Integration**: Generate and save meeting briefs directly to Google Docs
 
 ## Integrated Services
@@ -58,8 +57,6 @@ Precap integrates with several external services:
    ```env
    # Google API credentials
    NEXT_PUBLIC_GOOGLE_CLIENT_ID=your_google_client_id
-   NEXT_PUBLIC_GOOGLE_API_KEY=your_google_api_key
-   NEXT_PUBLIC_EXA_API_KEY=your_exa_api_key
    OPENAI_API_KEY=your_openai_api_key
    EXA_API_KEY=your_exa_api_key
    ```

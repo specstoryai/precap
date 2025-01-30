@@ -2,6 +2,8 @@
 
 Precap is an AI-powered meeting preparation tool that automatically researches attendees and generates comprehensive briefing materials before your meetings. It seamlessly integrates with Google Calendar to transform how you prepare for important meetings.
 
+The intent for this app and Cursor responses is stored in: https://share.specstory.com/stories/bdd54f16-06ef-4230-851d-fc1da61ba2fc
+
 ## Core Features
 
 - 🔄 **Google Calendar Integration**: Seamlessly connects with your calendar to fetch upcoming meetings and attendees

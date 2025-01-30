@@ -16,7 +16,7 @@ interface ExaPersonInfo {
 export async function searchPerson(name: string): Promise<ExaPersonInfo> {
   try {
     console.log('🔍 Searching for:', name);
-    const response = await fetch('http://localhost:3000/api/exa/search', {
+    const response = await fetch('/api/exa/search', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

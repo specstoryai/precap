@@ -23,7 +23,7 @@ export async function generatePersonSummary(personInfo: ExaPersonInfo): Promise<
   try {
     console.log(`🤖 Requesting summary for ${personInfo.name}`);
     
-    const response = await fetch('http://localhost:3000/api/summary', {
+    const response = await fetch('/api/summary', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
